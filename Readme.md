@@ -1,6 +1,11 @@
 ﻿ReSharper Heap Allocations Viewer plugin
 ----------------------------------------
 
+**This repository was forked from https://github.com/controlflow/resharper-heapview**
+
+The goal of this fork is to make sure the latest version of Resharper is supported, as the main repository was lagging behind.
+
+
 This plugins statically analyzes C# code to find all local object allocations happening.
 
 It can be used to reduce number of heap allocations in hot paths of your C# program.
