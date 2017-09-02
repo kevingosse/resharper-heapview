@@ -121,11 +121,7 @@ namespace JetBrains.ReSharper.HeapView.Analyzers
                                 }
                                 else
                                 {
-#if RESHARPER2017_1
-                  scope = declaration.GetContainingScope<ILocalScope>();
-#else
-                                    scope = declaration.GetContainingNode<ILocalScope>();
-#endif
+                                    scope = declaration.GetContainingScope<ILocalScope>();
                                 }
 
                                 break;
@@ -311,11 +307,7 @@ namespace JetBrains.ReSharper.HeapView.Analyzers
 
             var declaration = declarations[0];
             range = declaration.GetNameDocumentRange();
-#if RESHARPER2016_3
-      var nameEndOffset = range.EndOffset;
-#else
-            var nameEndOffset = range.TextRange.EndOffset;
-#endif
+            var nameEndOffset = range.EndOffset;
 
             if (declaration is ILocalVariableDeclaration variableDeclaration)
             {
