@@ -30,8 +30,8 @@
     <Compile Include="src\**\*.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="JetBrains.ReSharper.SDK.Tests" Version="2016.2.20160913.94928" />
-    <PackageReference Include="VSSDK.Text" Version="10.0.4" />
+    <PackageReference Include="JetBrains.ReSharper.SDK.Tests" Version="2017.2.0" />
+    <PackageReference Include="VSSDK.Text" Version="12.0.4" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReSharper.HeapView\ReSharper.HeapView.Wave06.csproj" />
