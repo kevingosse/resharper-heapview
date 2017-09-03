@@ -14,8 +14,8 @@ It can be used to reduce number of heap allocations in hot paths of your C# prog
 
 #### Download
 
-* Currently supported ReSharper versions are `2016.2`, `2016.3` and `2017.1`;
-* Use ReSharper extension manager to install it from [extensions gallery](http://resharper-plugins.jetbrains.com/packages/Resharper.HeapView.R2017.1/);
+* Currently supported ReSharper versions are `2016.2`, `2016.3`, `2017.1` and `2017.2`;
+* Use ReSharper extension manager to install it from [extensions gallery](http://resharper-plugins.jetbrains.com/packages/Resharper.HeapView.R2017.2/);
 * ReSharper `8.x`, `9.x`, `10.0` and `2016.1` are no longer supported, check extension manager for [latest](http://resharper-plugins.jetbrains.com/packages/Resharper.HeapView/) [versions](http://resharper-plugins.jetbrains.com/packages/Resharper.HeapView.R90/);
 * Plugin's [changelog is here](Content/Changelog.md).
 
